@@ -18,10 +18,10 @@ This powerhouse script **automates** two crucial tasks:
 
 ## 🚀 Getting Started 🚀
 
-1. **Download:** Grab the `do_backup.sh` script and save it to your preferred location.
+1. **Download:** Grab the `backup.sh` script and save it to your preferred location.
 2. **Customize:**  Open the script in your favorite text editor and modify the `BACKUP_DIR` and `SHARE_DIR` variables to match your directories. You can also adjust the `-mtime` value to control how many days old files must be before they're deleted.
-3. **Permissions:**  Make the script executable: `chmod +x do_backup.sh`
-4. **Run:** Execute the script: `./do_backup.sh`
+3. **Permissions:**  Make the script executable: `chmod +x backup.sh`
+4. **Run:** Execute the script: `./backup.sh`
 5. **Automate:**  (Optional) Use `cron` to schedule automatic backups and cleanup at regular intervals.
 
 ## 💪 Pro Tips 💪
